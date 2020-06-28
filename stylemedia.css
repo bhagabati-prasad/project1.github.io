@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+/*start of parallax*/
+	header {
+		padding: 14px 8px;
+		margin: 0;
+		position: fixed;
+	}
+	.logo {
+		font-size: 28px;
+		font-weight: bold;
+		padding: 0 20px;
+		color: #fff;
+		letter-spacing: 2px;
+	}
+	nav {display: none;}
+	.toggle {display: block;}
+
+
+	.prlx-row-container {
+		flex-direction: column-reverse;
+	}
+	.prlx-row {
+		top: 0;
+		font-size: 22px;
+		width: 100%;
+		background: rgba(0,0,0,.7);
+	}
+	.prlx-row2 { display: none;	}
+/*end of parallax*/
+
+
+/*start of about us*/
+	.adiv-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.aleftdiv {
+		display: flex;
+		align-items: flex-start;
+		width: 100%;
+		float: left;
+		clear: both;
+		padding: 10px 4px;
+	}
+	.arightdiv {
+		width: 100%;
+		padding: 10px 4px; 
+		float: left;
+		clear: both;
+	}
+/*end of about us*/
+
+/*start of services*/
+	.serv-row {
+		flex-direction: column;
+	}
+	.serv-box {
+		width: 100%;
+	}
+
+
+/*end of services*/
+
+
+
+/*start of why we*/
+	.ww-box-container {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		padding: 40px;
+		width: 100%;
+	}
+	.ww-box {
+		width: 100%;
+		margin: 10px 0;
+		display: inline-block;
+		
+	}
+	.ww-box-text, .ww-box-icon {
+		text-align: center;
+	}
+
+/*end of why we*/
+	
+/*skills start*/
+	.skill { padding: 8px; }
+	.skill-row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.skill-text, .skill-bars-container { width: 100%; padding: 8px;}
+
+
+/*skills end*/
+
+/*start of our team*/
+	.ourteam {padding: 0;}
+	.profile-row {display: block; padding: 40px;}
+	.imgdiv {
+		width: 100%;
+		float: left;
+		clear: both;
+		margin: 10px 0;
+	}
+/*end of our team*/
+
+
+/*start of contact us*/
+	.contactUs {padding: 4px 4px; display: block;}
+	.contact-left, .contact-right { width: 100%; padding: 4px; }
+	.contact-box {
+		display: inline-block;
+		padding: 20px 0;
+	}
+	.contact-addr, .contact-con { float: left; }
+	.msgbox {float: left;clear: both;width: 100%;padding: 8px 4px;}
+	.contactusdiv {float: left;clear: both;width: 100%;}
+/*end of contact us*/
+
+/*start of quicklinks*/
+	.quicklink {padding: 8px 10px;display: inline-block;}
+	.qdiv1, .qdiv2, .qdiv3, .qdiv4 {
+		width: 100%;
+		font-size: 18px;
+		text-align: left;
+		display: block;
+	}
+/*end of quicklinks*/
+
+/*start of footer*/
+	footer {display: inline-block;}
+	.copyright {width: 100%;float: left;clear: both;}
+	.fmediabtn {width: 100%;float: left;clear: both;}
+/*end of footer*/
+}
+
